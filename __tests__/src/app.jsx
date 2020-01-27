@@ -4,7 +4,7 @@ import { isSmaller } from './utils';
 
 import { Icon } from './Icon';
 
-import styles from './css-module.pcss';
+import styles from './app.module.css';
 import './style.css';
 
 export class App extends React.Component {
@@ -18,6 +18,7 @@ export class App extends React.Component {
                 <h2>
                     Hello, arui-scripts!
                 </h2>
+
                 <Icon />
 
                 Check hot-loader: <br />
