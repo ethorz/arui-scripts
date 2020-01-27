@@ -25,5 +25,5 @@ type IconType = {
  */
 
 export const Icon: React.FC<IconType> = () => (
-  <span className='icon gear' />
+  <span className={styles.gear} />
 );
