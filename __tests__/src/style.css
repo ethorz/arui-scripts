@@ -1,6 +1,10 @@
 body {
     background: aliceblue;
 }
+:root {
+    --shadow-color: red;
+    --shadow: 0 6px 14px 0 color(var(--shadow-color) a(.15));
+}
 
 .btn {
     border-radius: 5px;
@@ -12,6 +16,7 @@ body {
     background: linear-gradient(345deg, #aacac2, #3929bb);
     background-size: 400% 400%;
     animation: Insanity 2s ease infinite;
+    box-shadow: var(--shadow);
 }
 
 @keyframes Insanity {
