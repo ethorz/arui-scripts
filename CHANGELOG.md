@@ -1,3 +1,139 @@
+## [10.1.4](https://github.com/alfa-laboratory/arui-scripts/compare/v10.1.3...v10.1.4) (2021-01-15)
+
+
+### Bug Fixes
+
+* fix folder error ([eb5faa1](https://github.com/alfa-laboratory/arui-scripts/commit/eb5faa1a8221d09b75de477db2c8754ba909d881))
+
+
+
+## [10.1.3](https://github.com/alfa-laboratory/arui-scripts/compare/v10.1.2...v10.1.3) (2020-12-18)
+
+
+### Bug Fixes
+
+* **dev-server:** fix wrong path and url comparison on windows ([d488311](https://github.com/alfa-laboratory/arui-scripts/commit/d488311d88343647d19f65daa2364dcb9fb7035c))
+
+
+
+## [10.1.2](https://github.com/alfa-laboratory/arui-scripts/compare/v10.1.1...v10.1.2) (2020-12-17)
+
+
+### Bug Fixes
+
+* **nginx:** always use only ipv4 host ([fe73d1c](https://github.com/alfa-laboratory/arui-scripts/commit/fe73d1c41d3f14afdc41c137b760a253eaea2755))
+
+
+
+## [10.1.1](https://github.com/alfa-laboratory/arui-scripts/compare/v10.1.0...v10.1.1) (2020-11-30)
+
+
+### Bug Fixes
+
+* **tsconfig:** formatting fix ([32b2248](https://github.com/alfa-laboratory/arui-scripts/commit/32b22485197a90bb004deb7d5dedd14f2b89dc10))
+* **tsconfig:** separate build config from published config ([a55051d](https://github.com/alfa-laboratory/arui-scripts/commit/a55051d06f2ee8df86a6c78ebee5d13dba2a713c))
+
+
+
+# [10.1.0](https://github.com/alfa-laboratory/arui-scripts/compare/v10.0.1...v10.1.0) (2020-11-10)
+
+
+### Features
+
+* **webpack-client:** use svg-url-loader for svg ([638d601](https://github.com/alfa-laboratory/arui-scripts/commit/638d6015b1c49863468a0599609e3e107d08bc2d))
+
+
+
+## [10.0.1](https://github.com/alfa-laboratory/arui-scripts/compare/v10.0.0...v10.0.1) (2020-11-09)
+
+
+### Bug Fixes
+
+* **alpine-node:** push docker image on commit ([7e8c286](https://github.com/alfa-laboratory/arui-scripts/commit/7e8c286a8f038dee5c5f6f020e5f3dc7c9a193d6))
+* **webpack-dev:** add public path, so images loads correctly in dev mode ([e5c8a16](https://github.com/alfa-laboratory/arui-scripts/commit/e5c8a1640d674324ef835a68b76b251cd8772575))
+* **webpack-server:** add date-fns to externals, so it won't conflict with arui-feather date-fns ([131e9b2](https://github.com/alfa-laboratory/arui-scripts/commit/131e9b2d17804f6af378bb3c8adfbbd36ec4a8ee))
+
+
+
+# [10.0.0](https://github.com/alfa-laboratory/arui-scripts/compare/v9.7.0...v10.0.0) (2020-10-26)
+
+
+### Bug Fixes
+
+* replace remaining require with imports ([094d6c2](https://github.com/alfa-laboratory/arui-scripts/commit/094d6c24f80a3d4fb9d6e72629f6505a3b307904))
+* **alpine-node-nginx:** fix gpg errors ([33e6f72](https://github.com/alfa-laboratory/arui-scripts/commit/33e6f722b6dee26a0e66dcc979e05729f1927b79))
+* **dependencies:** ts as peer dependency ([438c7e7](https://github.com/alfa-laboratory/arui-scripts/commit/438c7e76023ab4e65bc67c0efa95a50da78f8395))
+* **get-entry:** remove console.log ([39d735d](https://github.com/alfa-laboratory/arui-scripts/commit/39d735db9b3709248ae3b8c7083541ac0c2187c6))
+* **jest:** correctly resolve path to all file mappers ([fcc34f9](https://github.com/alfa-laboratory/arui-scripts/commit/fcc34f99cca471c34b85c2b7dab4d838430770ca))
+* **ts-node:** configure it from single place ([e68eda5](https://github.com/alfa-laboratory/arui-scripts/commit/e68eda5058b694497af69978410c29541d541b0b))
+* **webpack-server:** fix node-externals in workspaces ([c283ae0](https://github.com/alfa-laboratory/arui-scripts/commit/c283ae0c9dface9e99a501f544a9ffc16ed2c22c))
+* **yarn:** fix ci configs ([b4d1162](https://github.com/alfa-laboratory/arui-scripts/commit/b4d1162c92febf6167edcb83c81f6e884f71d092))
+
+
+### Features
+
+* ts in all webpack configs ([e051e29](https://github.com/alfa-laboratory/arui-scripts/commit/e051e293a73c837d8d0cc53f32e262f0883a8d87))
+* yarn 2 support ([73bef4f](https://github.com/alfa-laboratory/arui-scripts/commit/73bef4f711c9b3c446665d38994447cdd896577e))
+* **alpine-node-nginx:** add docker build workflow ([2d95808](https://github.com/alfa-laboratory/arui-scripts/commit/2d958084feac5ba52b5d269eb90ed946f87eb7ba))
+* **alpine-node-nginx:** read version from version file ([dce6105](https://github.com/alfa-laboratory/arui-scripts/commit/dce6105a5a189c009947d4cddc947ce35ed555c6))
+
+
+
+<a name="9.7.0"></a>
+# [9.7.0](https://github.com/alfa-laboratory/arui-scripts/compare/v9.6.0...v9.7.0) (2020-10-22)
+
+
+### Features
+
+* **webpack:** split dynamic import from node_modules to chunk ([ba6a286](https://github.com/alfa-laboratory/arui-scripts/commit/ba6a286))
+
+
+
+<a name="9.6.0"></a>
+# [9.6.0](https://github.com/alfa-laboratory/arui-scripts/compare/v9.5.0...v9.6.0) (2020-10-08)
+
+
+### Features
+
+* **postcss-config:** add keepCssVars, revert plugin ([2d8a0d6](https://github.com/alfa-laboratory/arui-scripts/commit/2d8a0d6))
+
+
+
+<a name="9.5.0"></a>
+# [9.5.0](https://github.com/alfa-laboratory/arui-scripts/compare/v9.4.1...v9.5.0) (2020-09-22)
+
+
+### Features
+
+* **webpack:** replace style tags with optimized css bundle in dev ([22681f2](https://github.com/alfa-laboratory/arui-scripts/commit/22681f2))
+
+
+
+<a name="9.4.1"></a>
+## [9.4.1](https://github.com/alfa-laboratory/arui-scripts/compare/v9.4.0...v9.4.1) (2020-09-11)
+
+
+### Features
+
+* **postcss-config:** add postcss-color-mod-function ([a619453](https://github.com/alfa-laboratory/arui-scripts/commit/a619453))
+
+
+
+<a name="9.4.0"></a>
+# [9.4.0](https://github.com/alfa-laboratory/arui-scripts/compare/v9.3.2...v9.4.0) (2020-08-19)
+
+
+### Bug Fixes
+
+* **check-required-files:** skip empty files from config ([34701c5](https://github.com/alfa-laboratory/arui-scripts/commit/34701c5))
+
+
+### Features
+
+* **webpack:** add support for multiple entrypoints ([508c5c1](https://github.com/alfa-laboratory/arui-scripts/commit/508c5c1))
+
+
+
 <a name="9.3.2"></a>
 ## [9.3.2](https://github.com/alfa-laboratory/arui-scripts/compare/v9.3.1...v9.3.2) (2020-08-18)
 
